@@ -11,12 +11,11 @@
     ></video>
     <div class="overlay-animation"></div>
   </div>
+  <p class="subscript">
+    <span class="project__title">{project.projectTitle}</span>
+    {project.projectLabel}
+  </p>
 </a>
-
-<p class="subscript">
-  <span class="project__title">{project.projectTitle}</span>
-  {project.projectLabel}
-</p>
 
 <style>
   .project-wrapper {
@@ -25,6 +24,7 @@
     position: relative;
     clip-path: inset(0% 0% 0% 0% round 0rem);
     transition: 0.2s ease-out;
+    overflow: hidden;
   }
 
   .project-wrapper:hover {

@@ -110,7 +110,6 @@
   section {
     padding: var(--padding-large);
     background-color: var(--light);
-    /* height: 80vh; */
   }
 
   .about__container {

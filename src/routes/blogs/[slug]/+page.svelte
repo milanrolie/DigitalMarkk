@@ -94,7 +94,7 @@
   figure {
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 80svh;
     margin-top: 5rem;
   }
 
@@ -144,7 +144,7 @@
     figure {
       position: relative;
       width: 100%;
-      height: 40vh;
+      height: 40svh;
       margin-top: 5rem;
     }
 

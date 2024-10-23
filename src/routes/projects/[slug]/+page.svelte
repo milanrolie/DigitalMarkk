@@ -123,7 +123,7 @@
   }
 
   .first-content {
-    margin-top: 30vh;
+    margin-top: 30svh;
   }
 
   h2 {
@@ -153,7 +153,7 @@
     position: sticky;
     top: 0;
     width: 100%;
-    height: 70vh;
+    height: 70svh;
     margin-top: var(--padding-large);
     object-fit: cover;
     transform: translateY(100%);
@@ -220,7 +220,7 @@
     }
 
     .header-image {
-      height: 50vh;
+      height: 50svh;
     }
 
     .project-image {

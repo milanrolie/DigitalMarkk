@@ -21,20 +21,23 @@
       color: "gray",
     });
   });
-  
 </script>
 
 <section class="hallo">
   <p id="colortext">
-    Dit zijn ons zorgvuldig geselecteerde projecten. We hebben ze met veel liefde gemaakt en zijn er trots op. We hopen dat je ze net zo leuk vindt als <span> wij. </span>
+    Dit zijn ons zorgvuldig geselecteerde projecten. We hebben ze met veel
+    liefde gemaakt en zijn er trots op. We hopen dat je ze net zo leuk vindt als <span
+    >
+      wij.
+    </span>
   </p>
 </section>
 
 <style>
   section {
     padding: 1rem var(--padding);
-    height: 100vh;
-    margin-bottom: -35vh;
+    height: 100svh;
+    margin-bottom: -35svh;
   }
 
   p {
@@ -49,5 +52,4 @@
   span {
     color: var(--main-bright);
   }
-  
 </style>

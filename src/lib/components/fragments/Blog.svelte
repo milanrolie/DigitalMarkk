@@ -78,7 +78,7 @@
 
     .blog__image {
       filter: grayscale(0);
-      height: 50vh;
+      height: 100%;
     }
 
     .blog__title {

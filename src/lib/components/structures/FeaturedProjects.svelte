@@ -252,10 +252,12 @@
 
     .featured-projects {
       padding: var(--padding-small);
+      overflow: hidden;
     }
 
     .featured-projects__container {
       position: relative;
+      overflow: hidden;
       display: grid;
       grid-template-columns: 1fr;
       gap: 1rem;

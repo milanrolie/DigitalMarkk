@@ -109,7 +109,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100lvh;
     background: var(--bright);
     z-index: 200;
     opacity: 1;
@@ -118,25 +118,12 @@
     z-index: 99999;
   }
 
-  #whiteLayer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 110%;
-    height: 120vh;
-    background: var(--light);
-    z-index: 200;
-    opacity: 1;
-    pointer-events: none;
-    transform: translateY(100vh);
-  }
-
   #pageTransition {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100lvh;
     background: rgba(18, 18, 18, 0.2);
     /* backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); */

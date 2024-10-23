@@ -85,7 +85,7 @@
   section {
     padding: 1rem var(--padding-large);
     height: auto;
-    padding-bottom: 20vh;
+    padding-bottom: 20svh;
   }
 
   .flex-wrapper {
@@ -109,12 +109,6 @@
     font-weight: 400;
     margin-bottom: 1rem;
     text-transform: uppercase;
-  }
-
-  img {
-    width: 70%;
-    height: 70vh;
-    object-fit: cover;
   }
 
   h3 {
@@ -202,12 +196,6 @@
     .right {
       width: 100%;
       flex-direction: column;
-    }
-
-    img {
-      width: 100%;
-      height: 70vh;
-      object-fit: cover;
     }
 
     h2 {

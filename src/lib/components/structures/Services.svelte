@@ -82,7 +82,7 @@
   .services__container {
     position: relative;
     display: grid;
-    height: 80vh;
+    height: 80svh;
     grid-template-columns: 25fr 37.5fr 37.5fr;
     gap: 1rem;
   }

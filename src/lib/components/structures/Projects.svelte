@@ -47,7 +47,7 @@
   article {
     position: relative;
     width: 100%;
-    height: 70vh;
+    height: 70svh;
     margin-bottom: 3rem;
     object-fit: cover;
   }
@@ -73,7 +73,7 @@
 
     article {
       width: 100%;
-      height: 50vh;
+      height: 50svh;
       margin-bottom: 4rem;
     }
   }

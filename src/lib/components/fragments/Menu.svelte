@@ -259,8 +259,8 @@
   }
 
   .image {
-    width: 23vw;
-    height: 25vh;
+    width: 23svw;
+    height: 25svh;
     object-fit: cover;
   }
 

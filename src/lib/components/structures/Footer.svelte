@@ -355,8 +355,8 @@
       position: absolute;
       bottom: var(--padding-small);
       right: var(--padding-small);
-      width: 20%;
-      height: max-content;
+      width: 7rem;
+      height: auto;
     }
 
     .contact-wrapper__website-list + .contact-wrapper__socials-list {

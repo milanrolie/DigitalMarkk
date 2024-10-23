@@ -25,6 +25,12 @@
       ease: "Expo.easeInOut",
     });
 
+    tl.to(
+      "#gsapNav",
+      { mixBlendMode: "normal", duration: 2, ease: "Expo.easeInOut" },
+      "<"
+    );
+
     mm.add("(max-width: 700px)", () => {
       tl.to(
         ".menu-wrapper",

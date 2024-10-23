@@ -85,7 +85,7 @@
       </svg>
     </div>
     <h2 class="featured-projects__title">Onze projecten</h2>
-    <div class="line"></div>
+    <div class="line desktop-hide"></div>
 
     {#each data.allProjects.slice(0, 1) as project}
       <article class="project">

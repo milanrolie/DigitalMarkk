@@ -15,7 +15,7 @@
 </script>
 
 <PageTransition />
-<Navigation color="var(--light)" />
+<Navigation color="difference" />
 <SiteHeader />
 <About />
 <Services />

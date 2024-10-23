@@ -19,15 +19,17 @@
       ease: "power2.out",
     });
 
-    gsap.to("#gsapNav", {
-      scrollTrigger: {
-        trigger: "#about",
-        start: "top-=78",
-        end: "top-=78",
-        scrub: true,
-      },
-      mixBlendMode: "difference",
-    });
+    if (color === "difference") {
+      gsap.to("#gsapNav", {
+        scrollTrigger: {
+          trigger: "#about",
+          start: "top-=78",
+          end: "top-=78",
+          scrub: true,
+        },
+        mixBlendMode: "difference",
+      });
+    }
 
     gsap.to(".navigation__open-to", {
       scrollTrigger: {
@@ -60,7 +62,7 @@
     </svg>
   </div>
   <div class="navigation__links">
-    <a class="navigation__link" href="/contact">
+    <a class="navigation__link" href="#contact">
       <span class="mix-blend">Contact</span>
     </a>
     <Menu />
@@ -92,12 +94,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-  }
-
-  .white-line {
-    height: 1px;
-    width: 10rem;
-    background-color: var(--dynamic-color);
+    color: var(--light);
   }
 
   .open-to__text {

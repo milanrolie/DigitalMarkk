@@ -22,7 +22,6 @@
   .project-wrapper {
     height: 100%;
     width: 100%;
-    cursor: none;
     position: relative;
     clip-path: inset(0% 0% 0% 0% round 0rem);
     transition: 0.2s ease-out;
@@ -38,7 +37,6 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    cursor: none;
     transition: 0.4s ease-in-out;
     z-index: 5;
   }

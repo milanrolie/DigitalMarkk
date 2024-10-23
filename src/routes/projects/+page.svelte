@@ -1,11 +1,10 @@
 <script>
   import { gsap } from "gsap";
   import { onMount } from "svelte";
-  import Nav from "$lib/components/structures/Navigation.svelte";
+  import Navigation from "$lib/components/structures/Navigation.svelte";
   import Projects from "$lib/components/structures/Projects.svelte";
   import Footer from "$lib/components/structures/Footer.svelte";
-  import PageTransition from "$lib/components/PageTransition.svelte";
-  import Menu from "$lib/components/Menu.svelte";
+  import PageTransition from "$lib/components/fragments/PageTransition.svelte";
 
   export let data;
 
@@ -13,15 +12,14 @@
     gsap.from("#gsapLoadIn", {
       delay: 0,
       duration: 4,
-      ease: "power4.inOut",
-      y: 1000,
+      ease: "power4.out",
+      opacity: 0,
     });
   });
 </script>
 
 <PageTransition />
-<Nav color="var(----dark)" />
-<Menu />
+<Navigation color="var(--dark)" />
 <div id="gsapLoadIn">
   <Projects {data} />
 </div>

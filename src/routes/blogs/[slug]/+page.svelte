@@ -20,7 +20,7 @@
 </script>
 
 <PageTransition />
-<Navigation color="var(----dark)" />
+<Navigation color="difference" />
 
 <section class="first-content">
   <div class="text__container">

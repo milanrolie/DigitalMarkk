@@ -3,6 +3,7 @@
 </script>
 
 <svg
+  class="logo"
   width="108"
   height="24"
   viewBox="0 0 108 24"

@@ -1,0 +1,18 @@
+@use "sass:color";
+
+:root {
+  // Base colors
+  --light: #f9f9f9;
+  --dark: #151515;
+  --grey: #ececec;
+  --grey-dark: #696969;
+
+  --bright: #232652;
+  --accent: #beb2a7;
+
+  // Brand colors
+  --primary-color: var(--green);
+
+  // UI colors
+  --line-color: var(--grey);
+}

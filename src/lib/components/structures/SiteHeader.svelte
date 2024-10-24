@@ -195,7 +195,7 @@
 
 <style>
   section {
-    height: 100svh;
+    height: 100lvh;
     display: flex;
     flex-direction: column;
     padding-bottom: 3em;

@@ -261,7 +261,6 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 1rem;
-      margin-bottom: 5rem;
       padding: 0;
       padding-right: var(--padding-small);
     }
@@ -272,18 +271,7 @@
       width: 100%;
       padding-right: var(--padding-small);
 
-      grid-gap: 5rem;
-    }
-
-    article:nth-of-type(3) {
-      aspect-ratio: auto;
-      padding-left: 0;
-      transform: translateY(0);
-    }
-
-    article {
-      width: 100%;
-      height: 100%;
+      grid-gap: 0rem;
     }
 
     article:nth-of-type(1) {
@@ -303,7 +291,7 @@
     }
 
     .projects__link {
-      margin-top: 15svh;
+      margin-top: 3rem;
       margin-bottom: var(--padding-large);
       font-weight: 200;
     }

@@ -2,20 +2,20 @@
   export let project;
 </script>
 
-<a href={`/projects/${project.slug}`}>
-  <div class="project-wrapper">
+<div class="project-wrapper">
+  <a href={`/projects/${project.slug}`}>
     <!-- {#if project.projectTitle !== "Stern Films"} -->
     <img src={project.featuredImage.url} alt="" />
     <!-- {/if} -->
     <!-- <video playsinline loop muted autoplay src={project.verticalVideo.url}
     ></video> -->
     <div class="overlay-animation"></div>
-  </div>
-  <p class="subscript">
-    <span class="project__title">{project.projectTitle}</span>
-    {project.projectLabel}
-  </p>
-</a>
+  </a>
+</div>
+<p class="subscript">
+  <span class="project__title">{project.projectTitle}</span>
+  {project.projectLabel}
+</p>
 
 <style>
   .project-wrapper {
@@ -24,7 +24,6 @@
     position: relative;
     clip-path: inset(0% 0% 0% 0% round 0rem);
     transition: 0.2s ease-out;
-    overflow: hidden;
   }
 
   .project-wrapper:hover {
@@ -42,7 +41,7 @@
   }
 
   .project-wrapper:hover img {
-    opacity: 0;
+    opacity: 1;
   }
 
   video {
@@ -88,8 +87,8 @@
 
     .subscript {
       position: absolute;
-      bottom: -2rem;
-      left: 0;
+      bottom: 0rem;
+      left: 0.5rem;
       color: var(--light);
       text-transform: uppercase;
       font-size: 0.7rem;

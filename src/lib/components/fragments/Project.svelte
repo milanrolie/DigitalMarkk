@@ -4,11 +4,11 @@
 
 <a href={`/projects/${project.slug}`}>
   <div class="project-wrapper">
-    {#if project.projectTitle !== "Stern Films"}
-      <img src={project.featuredImage.url} alt="" />
-    {/if}
-    <video playsinline loop muted autoplay src={project.verticalVideo.url}
-    ></video>
+    <!-- {#if project.projectTitle !== "Stern Films"} -->
+    <img src={project.featuredImage.url} alt="" />
+    <!-- {/if} -->
+    <!-- <video playsinline loop muted autoplay src={project.verticalVideo.url}
+    ></video> -->
     <div class="overlay-animation"></div>
   </div>
   <p class="subscript">
